@@ -17,14 +17,14 @@ body {
 }
 ruby{
   display: inline-flex;
-  flex-direction: column;
+  flex-direction: column-reverse;
   width: 1em;
   align-items: center;
   line-height: 1;
 }
 rt {
-transform: scale(0.7, 1);
-font-size: 0.8em;
+transform: scale(0.7,1);
+font-size: 0.7em;
 font-weight: normal;
 white-space: nowrap;
 }
