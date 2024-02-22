@@ -23,7 +23,8 @@ ruby{
   line-height: 1;
 }
 rt {
-
+transform: scale(0.58,1);
+font-size: 0.85em;
 font-weight: normal;
 white-space: nowrap;
 color: rgba(100, 65, 37, 0.97); /* 使用半透明颜色值 */
