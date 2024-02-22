@@ -27,6 +27,7 @@ transform: scale(0.7,1);
 font-size: 0.7em;
 font-weight: normal;
 white-space: nowrap;
+opacity: 0.5; /* 将字体变浅 */
 }
 .container{
     padding:20px 10px 70px 10px!important;
