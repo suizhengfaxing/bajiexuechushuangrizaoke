@@ -27,6 +27,7 @@ transform: scale(0.7,1);
 font-size: 0.7em;
 font-weight: normal;
 white-space: nowrap;
+color: rgba(100, 65, 37, 0.9); /* 使用半透明颜色值 */
 opacity: 0.9; /* 将字体变浅 */
 }
 .container{
