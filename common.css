@@ -23,12 +23,11 @@ ruby{
   line-height: 1;
 }
 rt {
-transform: scale(0.7,1);
+transform: scale(0.58,1);
 font-size: 0.7em;
 font-weight: normal;
 white-space: nowrap;
-color: rgba(100, 65, 37, 0.9); /* 使用半透明颜色值 */
-opacity: 0.9; /* 将字体变浅 */
+color: rgba(100, 65, 37, 0.97); /* 使用半透明颜色值 */
 }
 .container{
     padding:20px 10px 70px 10px!important;
