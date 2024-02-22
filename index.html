@@ -871,8 +871,8 @@
         window.onload = function() {
           var rtElements = document.querySelectorAll('rt');
           rtElements.forEach(function(rtElement) {
-            var parentRuby = rtElement.closest('ruby'); // 获取最近的父级ruby元素
-            if (parentRuby) {
+            var parentElement = rtElement.parentElement; // 或者使用 rtElement.parentNode
+            if (parentElement && parentElement.tagName === 'RUBY') {
               var rtContentWidth = rtElement.offsetWidth;
               var fontSize = parseInt(window.getComputedStyle(rtElement).fontSize)*1.2;
               if (rtContentWidth > fontSize) {
@@ -881,7 +881,6 @@
               else
               {
                 rtElement.style.transform = 'translateY(-0.2em)';
-                
               }
               
             }
