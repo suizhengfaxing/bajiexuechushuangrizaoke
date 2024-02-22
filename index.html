@@ -874,7 +874,7 @@
             var parentElement = rtElement.parentElement; // 或者使用 rtElement.parentNode
             if (parentElement && parentElement.tagName === 'RUBY') {
               var rtContentWidth = rtElement.offsetWidth;
-              var fontSize = parseInt(window.getComputedStyle(rtElement).fontSize)*1.2;
+              var fontSize = parseInt(window.getComputedStyle(rtElement).fontSize);
               if (rtContentWidth > fontSize) {
                 rtElement.style.transform = 'scale(' + (fontSize / rtContentWidth) + ',1) translateY(-0.2em)';
               }
