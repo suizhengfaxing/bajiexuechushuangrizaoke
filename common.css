@@ -23,7 +23,7 @@ ruby{
   line-height: 1;
 }
 rt {
-transform: scale(0.58,1);
+transform: scale(0.5,1);
 font-size: 0.85em;
 font-weight: normal;
 white-space: nowrap;
